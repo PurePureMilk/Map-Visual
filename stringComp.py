@@ -7,6 +7,7 @@ str6 = "TCCATCGTCTGCAATCAGAT"
 
 family = []
 
+'''
 set = {str1, str2, str3, str4, str5, str6};
 array.add(str1)...array.add(str2)
 
@@ -25,3 +26,4 @@ def compareStrand(dna1, dna2):
   for (i = 0; i < str.length; i++)
     if(dna1[i] == dna2[i])
       count++;
+'''
