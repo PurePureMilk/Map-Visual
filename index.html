@@ -1,33 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Groundwater Models</title>
+    <title>Mapping Drought Percentiles</title>
   </head>
   <body>
-    <h1><b> Groundwater Models </b></h1>
+    <h1><b> Python Scripts for Mapping Drought Percentiles in the US and Globally </b></h1>
     <p>
-      The models below map out the wetness percentile of three different layers:
-      surface soil moisture, root zone soil moisture, and groundwater. The
-      surface soil moisture contains soil particles. You take a cubic volume.
-      There are some level spaces that are filled what water. Some of them are
-      filled with soil particles. Some of them are just empty spaces. The
-      surface soil moisture is near the land surface, and for this data, it
-      would be the top centimeters of the land surface. The root zone soil
-      moisture is one matter from the land surface. Two meters below there's
-      groundwater. This represents shallow groundwater. How shallow groundwater
-      fluctuates is by varying with precipitation. If there's a lot of
-      precipitation, the groundwater table may rise. During the summer, when
-      there's no precipitation, a lot of the evaporated groundwater may drop or
-      decrease. We use the percentiles to indicate a drier condition or wetter
-      condition. The lower percentile represents dry conditions and the high
-      percentile represents wet conditions. You can view the models below and 
-	  click on the Colab Link to if you want to view the code.
+      The scripts below map out the wetness percentile of three hydrological variables: surface soil moisture, root zone soil moisture, and groundwater. Surface soil moisture measures the percentage of water (in volume) in the top two centimeters of the soil. Meanwhile, root zone soil moisture represents that quantity in the top one meter of the soil.  Groundwater here represents shallow groundwater storage.  All three variables vary in response to precipitation and evapotranspiration.  If there is a lot of precipitation, they may all increase but increases in groundwater may lag changes in other two variables.  During summer or droughts, soil moisture and groundwater may decrease due to evaporation or lack of precipitation.  Higher or lower percentiles are used to indicate wetter or drier conditions in these variables.  For additional information and data download, please visit the NASA GRACE or GRACE FO-based drought indicator website (https://nasagrace.unl.edu/).  You can view the maps/animation generated from the scripts below and click on the Colab Link to view the source code. 
+
     </p>
 
-    <a href="3D_Plot_with_Contours.html"> 3D Plot with Contours</a>
+    <a href="3D_Plot_with_Contours.html"> Groundwater Percentiles in the Conterminous US</a>
     <a href="https://colab.research.google.com/drive/1EkRSKsmgf4MLAfkM105IVpa1IIoZcyK_"> [Colab Link]</a> <br />
 	
-    <a href="Animated_3D_Plot_with_All_3_Layers_Stacked.html">Animated 3D Plot with All 3 Layers Stacked</a>
+    <a href="Animated_3D_Plot_with_All_3_Variables_Stacked.html">Animated 3D Plot with All 3 Variables Stacked</a>
 	<a href="https://colab.research.google.com/drive/1HEpTSnkBVhnGxAneEWmHeEQOwQPhaH3C"> [Colab Link]</a> <br />
 	
     <a href="Layer_by_Layer_Dynamic_Position_Animation.html">Layer by Layer Dynamic Position Animation</a> 
@@ -40,7 +26,7 @@
 	<a href="https://colab.research.google.com/drive/19OFuHx-q3VSuqNIhTI5kxnLrI55Cnntg"> [Colab Link]</a> <br />
 
 	
-    <a href="Static_3D_Plot_with_All_3_Layers_Stacked.html">Static 3D Plot with All 3 Layers Stacked</a>
+    <a href="Static_3D_Plot_with_All_3_Variables_Stacked.html">Static 3D Plot with All 3 Variables Stacked</a>
 	<a href="https://colab.research.google.com/drive/1DqtSDhgqCWSGWV9cemwRcL2UvyOkg7Tt"> [Colab Link]</a> <br />
 	
     <a href="surface_plotly_global.html"> Surface Plotly Global</a> 
